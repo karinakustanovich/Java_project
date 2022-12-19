@@ -21,7 +21,7 @@ public class variables {
         char myChar2 = 'g';
         System.out.println("myChar = " + myChar);
 
-        String myName =  "Karina";
+        String myName =  "KarinaK";
         System.out.println("myName = " + myName);
 
 

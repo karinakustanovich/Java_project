@@ -44,8 +44,10 @@ public class Homework {
 
         char myChar = '\u2661';
         char myChar1 = 'K';
+        char myChar2 = '6';
         System.out.println(myChar);
         System.out.println(myChar1);
+        System.out.println(myChar2);
 
     }
 }

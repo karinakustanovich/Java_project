@@ -22,6 +22,11 @@ public class incrementdecrement {
         a--;
         System.out.println("a = " + a );
 
+/*        System.out.println("a = " + a++ );
+        System.out.println("a = " + a );
+
+        System.out.println("a = " + ++a );*/
+
 
 
     }

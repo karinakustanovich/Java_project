@@ -25,6 +25,6 @@ public class userinput {
         System.out.println("grade = " + grade);
         System.out.println("Finished");
 
-        
+
     }
 }

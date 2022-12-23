@@ -14,21 +14,15 @@ public class homework2 {
         double result = 0;
         result = i2 / d1 + d2 % i1 - l;
 
-        System.out.println(result);
+        System.out.println("result = " + result);
 
         int a = 5;
         int b = 8;
 
         int resultA = a-- - --a + ++a + a++ + a;
-        System.out.println(resultA);
+        System.out.println("resultA = " + resultA);
         int resultB = ++b - b++ + ++b - --b;
-        System.out.println(resultB);
-
-        
-
-
-
-
+        System.out.println("resultB = " + resultB);
 
 
     }

@@ -15,10 +15,8 @@ public class breakcontinue {
             if (a == 17){
                 break;
             }
-            a++;
+            System.out.println(a + " ");
         }
-
-        System.out.println(a + " ");
 
     }
 }

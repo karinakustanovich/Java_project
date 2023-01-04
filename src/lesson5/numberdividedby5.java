@@ -9,8 +9,8 @@ public class numberdividedby5 {
             if (a % 5 == 0) {
 
                 System.out.println("a = " + a);
-                a++;
             }
+            a++;
         }
     }
 }

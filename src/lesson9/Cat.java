@@ -2,9 +2,9 @@ package lesson9;
 
 public class Cat {
 
-    String name;
-    String color;
-    int age;
+    private String name;
+    private String color;
+    private int age;
 
     public Cat(String name, String color, int age) {
         this.name = name;

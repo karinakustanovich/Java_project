@@ -1,6 +1,6 @@
 package lesson13;
 
-import lesson12.ProtectedClass;
+//import lesson12.ProtectedClass;
 import lesson13.deaultPackage.DefaultClass;
 
 public class ModifiersMain {

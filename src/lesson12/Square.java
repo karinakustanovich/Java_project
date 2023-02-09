@@ -1,25 +1,17 @@
 package lesson12;
 
-public class Square extends Shape {
-
+class Square extends Shape {
     private double side;
 
-    public Square(String color, double side) {
+    Square(String color, double side) {
         super(color);
         this.side = side;
     }
 
     @Override
-    public String toString() {
-        return "Square{" +
-                "side=" + side +
-                " " + super.toString();
+    String getDimensions() {
+        return "Side: " + side;
     }
-
-    /**
-     * Method calculates area
-     * @return calculate area of the shape.
-     */
 
     @Override
     public double calculateArea() {
@@ -28,6 +20,6 @@ public class Square extends Shape {
 
     @Override
     public double calculatePerimeter() {
-        return side * 4;
+        return 4 * side;
     }
 }

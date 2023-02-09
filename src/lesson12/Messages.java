@@ -18,10 +18,10 @@ public class Messages {
 
     public static void printShapesMenu() {
         System.out.println("\nPlease choose from the next Shapes:");
-        System.out.println("1. Square");
-        System.out.println("2. Rectangle");
-        System.out.println("3. Circle");
-        System.out.println("4. Right triangle");
+        System.out.println("1. Rectangle");
+        System.out.println("2. Right triangle");
+        System.out.println("3. Square");
+        System.out.println("4. Circle");
     }
 
     public static void printCollection(List<Shape> list) {
